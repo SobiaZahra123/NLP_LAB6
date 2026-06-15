@@ -1,9 +1,3 @@
-
-"""
-AI Sign Language Detection App
-Using TensorFlow, MediaPipe, and Hugging Face Models
-"""
-
 import streamlit as st
 import cv2
 import numpy as np
@@ -12,7 +6,7 @@ import time
 import os
 
 # Import utilities
-from utils import (
+from utils import 
     download_model_from_hub,
     load_tflite_model,
     extract_hand_landmarks,
@@ -23,7 +17,7 @@ from utils import (
     text_to_speech_google,
     init_session_state,
     hands
-)
+
 
 # Page configuration
 st.set_page_config(
